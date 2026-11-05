@@ -8,7 +8,7 @@ const Quiz = () => {
   const [showResult, setShowResult] = useState(false);
 
   console.log("Commit check");
-
+  console.log("!!!!!!!!!!! check");
   const handleAnswer = (option) => {
     if (option === questions[currentQuestion].answer) {
       setScore(score + 1);
