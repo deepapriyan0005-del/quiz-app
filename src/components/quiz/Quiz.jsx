@@ -7,7 +7,7 @@ const Quiz = () => {
   const [score, setScore] = useState(0);
   const [showResult, setShowResult] = useState(false);
 
-
+  console.log("!!!!!!!!!!! check");
   const handleAnswer = (option) => {
     if (option === questions[currentQuestion].answer) {
       setScore(score + 1);
